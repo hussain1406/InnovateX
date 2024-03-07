@@ -1,0 +1,192 @@
+[
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Understanding File Permissions",
+        "topicFocus": "Linux Basics",
+        "topicDescription": "Exploring the intricacies of Linux file permissions, including understanding permission types, how to modify permissions, and best practices for secure file access.",
+        "topicOutcomes": "Master the concepts of file permissions and ensure secure access to files and directories.",
+        "subtopics": [
+            {
+                "name": "Access Control Lists (ACLs)",
+                "difficulty": "medium",
+                "description": "Understanding and managing Access Control Lists (ACLs) to grant or restrict access to files beyond traditional Linux permissions."
+            },
+            {
+                "name": "SetUID, SetGID, Sticky Bit",
+                "difficulty": "difficult",
+                "description": "Explaining the purpose and usage of SetUID, SetGID, and Sticky Bit in Linux file permissions and their implications on security and file execution."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Process Management",
+        "topicFocus": "Linux Basics",
+        "topicDescription": "Delve into managing processes in a Linux environment, including process monitoring, control, and resource allocation.",
+        "topicOutcomes": "Gain proficiency in managing processes efficiently and optimizing system performance.",
+        "subtopics": [
+            {
+                "name": "Process Priorities",
+                "difficulty": "easy",
+                "description": "Understanding process priorities and how to manipulate them using tools like 'nice' and 'renice' for better resource utilization."
+            },
+            {
+                "name": "Process Signals",
+                "difficulty": "medium",
+                "description": "Learning about process signals, their types, and how to send and handle signals for process management and control."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Logical Volume Management (LVM)",
+        "topicFocus": "Linux Basics",
+        "topicDescription": "Explore the concept of Logical Volume Management (LVM) in Linux for dynamic disk partitioning, resizing, and management.",
+        "topicOutcomes": "Acquire the skills to manage storage more flexibly and efficiently using LVM.",
+        "subtopics": [
+            {
+                "name": "Creating and Extending Logical Volumes",
+                "difficulty": "medium",
+                "description": "Step-by-step guide to creating, extending, and resizing logical volumes in LVM to accommodate changing storage needs."
+            },
+            {
+                "name": "Snapshot Management",
+                "difficulty": "difficult",
+                "description": "Understanding and managing LVM snapshots for point-in-time backups and data recovery purposes."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Kernel Compilation",
+        "topicFocus": "Linux Basics",
+        "topicDescription": "Dive into the process of compiling and installing a custom Linux kernel, understanding kernel configuration, optimization, and troubleshooting.",
+        "topicOutcomes": "Master the skill of building and deploying custom Linux kernels tailored to specific hardware or requirements.",
+        "subtopics": [
+            {
+                "name": "Kernel Configuration",
+                "difficulty": "medium",
+                "description": "Understanding kernel configuration options and customizing kernel settings according to system requirements."
+            },
+            {
+                "name": "Module Management",
+                "difficulty": "difficult",
+                "description": "Learning to manage kernel modules, including loading, unloading, and troubleshooting module-related issues."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Network Configuration",
+        "topicFocus": "Linux Basics",
+        "topicDescription": "Explore configuring network interfaces, routing, DNS, and firewall settings in a Linux environment.",
+        "topicOutcomes": "Develop the skills to set up and manage network connectivity effectively in Linux systems.",
+        "subtopics": [
+            {
+                "name": "IP Address Management",
+                "difficulty": "easy",
+                "description": "Basic understanding and configuration of IP addresses, subnetting, and network interfaces in Linux."
+            },
+            {
+                "name": "Firewall Management (iptables/nftables)",
+                "difficulty": "medium",
+                "description": "Configuring and managing firewall rules using iptables or nftables for network traffic filtering and security."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Shell Scripting",
+        "topicFocus": "Linux Basics",
+        "topicDescription": "Learn the fundamentals of shell scripting in Linux, including script creation, variables, control structures, and functions.",
+        "topicOutcomes": "Acquire proficiency in automating tasks and writing efficient shell scripts for system administration.",
+        "subtopics": [
+            {
+                "name": "Regular Expressions",
+                "difficulty": "medium",
+                "description": "Understanding and utilizing regular expressions in shell scripts for pattern matching and text manipulation."
+            },
+            {
+                "name": "Error Handling",
+                "difficulty": "difficult",
+                "description": "Implementing error handling mechanisms in shell scripts to detect and respond to errors gracefully."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Containerization with Docker",
+        "topicFocus": "Linux Basics",
+        "topicDescription": "Explore containerization technology using Docker, including container creation, management, and orchestration.",
+        "topicOutcomes": "Develop proficiency in deploying and managing applications using Docker containers.",
+        "subtopics": [
+            {
+                "name": "Docker Networking",
+                "difficulty": "medium",
+                "description": "Configuring and managing networking for Docker containers, including bridged networks and container-to-container communication."
+            },
+            {
+                "name": "Container Security",
+                "difficulty": "difficult",
+                "description": "Implementing security best practices for Docker containers, including image scanning, container isolation, and access control."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Systemd",
+        "topicFocus": "Linux Basics",
+        "topicDescription": "Delve into systemd, the system and service manager for Linux, covering unit files, targets, and troubleshooting.",
+        "topicOutcomes": "Master the usage and customization of systemd for managing system services and boot processes.",
+        "subtopics": [
+            {
+                "name": "Systemd Unit Files",
+                "difficulty": "medium",
+                "description": "Understanding systemd unit files and creating custom unit files for managing services and tasks."
+            },
+            {
+                "name": "Systemd Journal",
+                "difficulty": "difficult",
+                "description": "Exploring systemd journal for system logging, analysis, and troubleshooting of system services and events."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Backup and Recovery",
+        "topicFocus": "Linux Basics",
+        "topicDescription": "Learn about backup strategies, tools, and techniques for data protection and recovery in Linux systems.",
+        "topicOutcomes": "Develop the skills to implement robust backup solutions and efficiently recover from data loss scenarios.",
+        "subtopics": [
+            {
+                "name": "Backup Strategies",
+                "difficulty": "easy",
+                "description": "Exploring different backup strategies such as full backup, incremental backup, and differential backup."
+            },
+            {
+                "name": "Disaster Recovery",
+                "difficulty": "difficult",
+                "description": "Developing disaster recovery plans and procedures to restore data and services in case of catastrophic events."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Kernel Tuning and Optimization",
+        "topicFocus": "Linux Basics",
+        "topicDescription": "Discover techniques for optimizing and fine-tuning the Linux kernel to improve system performance and efficiency.",
+        "topicOutcomes": "Gain insights into kernel parameters, tuning options, and performance monitoring tools for optimizing Linux systems.",
+        "subtopics": [
+            {
+                "name": "Kernel Parameters",
+                "difficulty": "medium",
+                "description": "Understanding and adjusting kernel parameters to optimize system behavior and resource utilization."
+            },
+            {
+                "name": "Performance Monitoring Tools",
+                "difficulty": "difficult",
+                "description": "Exploring advanced performance monitoring tools like perf and sysstat for analyzing and optimizing system performance."
+            }
+        ]
+    }
+]

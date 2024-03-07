@@ -1,0 +1,274 @@
+[
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Setting Up SSH Server",
+        "topicFocus": "Linux Services",
+        "topicDescription": "Learn how to set up and configure an SSH server on Linux.",
+        "topicOutcomes": "Understand the process of setting up an SSH server and managing user access securely.",
+        "subtopics": [
+            {
+                "name": "Installing SSH Server",
+                "difficulty": "Easy",
+                "description": "Install SSH server software on your Linux system."
+            },
+            {
+                "name": "Configuring SSH Server",
+                "difficulty": "Medium",
+                "description": "Modify SSH server configuration settings for security and functionality."
+            },
+            {
+                "name": "Generating SSH Keys",
+                "difficulty": "Medium",
+                "description": "Create SSH key pairs for secure authentication."
+            },
+            {
+                "name": "Managing SSH Users",
+                "difficulty": "Medium",
+                "description": "Add, remove, and manage user access to the SSH server."
+            },
+            {
+                "name": "Troubleshooting SSH Connections",
+                "difficulty": "Difficult",
+                "description": "Identify and resolve common issues with SSH connections."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Configuring Apache Server",
+        "topicFocus": "Linux Services",
+        "topicDescription": "Learn how to configure and manage an Apache web server on Linux.",
+        "topicOutcomes": "Understand the process of setting up virtual hosts, configuring modules, and managing web content.",
+        "subtopics": [
+            {
+                "name": "Installing Apache Server",
+                "difficulty": "Easy",
+                "description": "Install Apache server software on your Linux system."
+            },
+            {
+                "name": "Setting Up Virtual Hosts",
+                "difficulty": "Medium",
+                "description": "Configure Apache to serve multiple websites on a single server."
+            },
+            {
+                "name": "Enabling SSL/TLS",
+                "difficulty": "Medium",
+                "description": "Secure your Apache server with SSL/TLS encryption."
+            },
+            {
+                "name": "Configuring .htaccess Files",
+                "difficulty": "Medium",
+                "description": "Utilize .htaccess files for directory-level configuration and access control."
+            },
+            {
+                "name": "Optimizing Apache Performance",
+                "difficulty": "Difficult",
+                "description": "Implement strategies to improve the performance and scalability of your Apache server."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Configuring Nginx Server",
+        "topicFocus": "Linux Services",
+        "topicDescription": "Learn how to configure and manage an Nginx web server on Linux.",
+        "topicOutcomes": "Understand the process of setting up virtual hosts, load balancing, and optimizing performance.",
+        "subtopics": [
+            {
+                "name": "Installing Nginx Server",
+                "difficulty": "Easy",
+                "description": "Install Nginx server software on your Linux system."
+            },
+            {
+                "name": "Setting Up Virtual Hosts",
+                "difficulty": "Medium",
+                "description": "Configure Nginx to serve multiple websites on a single server."
+            },
+            {
+                "name": "Implementing Load Balancing",
+                "difficulty": "Medium",
+                "description": "Distribute incoming traffic across multiple backend servers for improved performance and reliability."
+            },
+            {
+                "name": "Enabling HTTPS with Let's Encrypt",
+                "difficulty": "Medium",
+                "description": "Secure your Nginx server with free SSL/TLS certificates from Let's Encrypt."
+            },
+            {
+                "name": "Fine-Tuning Nginx Configuration",
+                "difficulty": "Difficult",
+                "description": "Optimize Nginx server settings for better performance and resource utilization."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Setting Up Postfix Mail Server",
+        "topicFocus": "Linux Services",
+        "topicDescription": "Learn how to set up and configure a mail server using Postfix on Linux.",
+        "topicOutcomes": "Understand the process of configuring mail domains, user accounts, and managing email delivery.",
+        "subtopics": [
+            {
+                "name": "Installing Postfix",
+                "difficulty": "Easy",
+                "description": "Install Postfix mail server software on your Linux system."
+            },
+            {
+                "name": "Configuring Mail Domains",
+                "difficulty": "Medium",
+                "description": "Set up and configure mail domains for sending and receiving emails."
+            },
+            {
+                "name": "Managing User Accounts",
+                "difficulty": "Medium",
+                "description": "Create, modify, and delete user accounts for email access."
+            },
+            {
+                "name": "Setting Up SMTP Authentication",
+                "difficulty": "Medium",
+                "description": "Implement SMTP authentication to secure email transmissions."
+            },
+            {
+                "name": "Monitoring Mail Server",
+                "difficulty": "Difficult",
+                "description": "Monitor mail server activity, troubleshoot issues, and ensure reliable email delivery."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Setting Up DNS Server (Bind9)",
+        "topicFocus": "Linux Services",
+        "topicDescription": "Learn how to set up and configure a DNS server using Bind9 on Linux.",
+        "topicOutcomes": "Understand the process of configuring DNS zones, records, and managing DNS resolution.",
+        "subtopics": [
+            {
+                "name": "Installing Bind9",
+                "difficulty": "Easy",
+                "description": "Install Bind9 DNS server software on your Linux system."
+            },
+            {
+                "name": "Configuring DNS Zones",
+                "difficulty": "Medium",
+                "description": "Set up DNS zones for domain name resolution."
+            },
+            {
+                "name": "Managing DNS Records",
+                "difficulty": "Medium",
+                "description": "Add, modify, and delete DNS records for your domains."
+            },
+            {
+                "name": "Implementing DNS Security",
+                "difficulty": "Medium",
+                "description": "Secure your DNS server against DNS spoofing, DoS attacks, and other threats."
+            },
+            {
+                "name": "Troubleshooting DNS Issues",
+                "difficulty": "Difficult",
+                "description": "Diagnose and resolve common DNS server problems and errors."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Setting Up DHCP Server",
+        "topicFocus": "Linux Services",
+        "topicDescription": "Learn how to set up and configure a DHCP server on Linux.",
+        "topicOutcomes": "Understand the process of allocating IP addresses dynamically and managing network configurations.",
+        "subtopics": [
+            {
+                "name": "Installing DHCP Server",
+                "difficulty": "Easy",
+                "description": "Install DHCP server software on your Linux system."
+            },
+            {
+                "name": "Configuring DHCP Scope",
+                "difficulty": "Medium",
+                "description": "Define IP address ranges and configuration options for DHCP clients."
+            },
+            {
+                "name": "Assigning Static IP Addresses",
+                "difficulty": "Medium",
+                "description": "Assign fixed IP addresses to specific devices on the network."
+            },
+            {
+                "name": "Implementing DHCP Relay",
+                "difficulty": "Medium",
+                "description": "Configure DHCP relay agents to extend DHCP service across multiple subnets."
+            },
+            {
+                "name": "Troubleshooting DHCP Issues",
+                "difficulty": "Difficult",
+                "description": "Diagnose and resolve common problems related to DHCP server configuration and operation."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Setting Up NTP Server",
+        "topicFocus": "Linux Services",
+        "topicDescription": "Learn how to set up and configure an NTP server for time synchronization on Linux.",
+        "topicOutcomes": "Understand the process of configuring NTP service, managing time sources, and ensuring accurate timekeeping.",
+        "subtopics": [
+            {
+                "name": "Installing NTP Server",
+                "difficulty": "Easy",
+                "description": "Install NTP server software on your Linux system."
+            },
+            {
+                "name": "Configuring Time Sources",
+                "difficulty": "Medium",
+                "description": "Set up NTP to synchronize time with reliable time sources such as NTP pools or servers."
+            },
+            {
+                "name": "Managing NTP Configuration",
+                "difficulty": "Medium",
+                "description": "Customize NTP settings, including server options, access control, and logging."
+            },
+            {
+                "name": "Synchronizing Time Across Network",
+                "difficulty": "Medium",
+                "description": "Ensure consistent timekeeping across your network by configuring NTP clients and servers."
+            },
+            {
+                "name": "Monitoring NTP Performance",
+                "difficulty": "Difficult",
+                "description": "Monitor NTP server performance, analyze synchronization data, and troubleshoot time-related issues."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Setting Up Load Balancing Server",
+        "topicFocus": "Linux Services",
+        "topicDescription": "Learn how to set up and configure a load balancing server for distributing traffic across multiple servers on Linux.",
+        "topicOutcomes": "Understand the process of deploying load balancers, configuring load balancing algorithms, and ensuring high availability.",
+        "subtopics": [
+            {
+                "name": "Installing Load Balancer Software",
+                "difficulty": "Easy",
+                "description": "Install load balancing software such as HAProxy or Nginx on your Linux system."
+            },
+            {
+                "name": "Configuring Load Balancing Algorithms",
+                "difficulty": "Medium",
+                "description": "Choose and configure load balancing algorithms to distribute incoming traffic effectively."
+            },
+            {
+                "name": "Setting Up High Availability",
+                "difficulty": "Medium",
+                "description": "Ensure continuous availability of services by deploying redundant load balancers and servers."
+            },
+            {
+                "name": "Monitoring Load Balancer Performance",
+                "difficulty": "Medium",
+                "description": "Monitor load balancer health, traffic distribution, and server performance to optimize resource usage."
+            },
+            {
+                "name": "Scaling Load Balancing Infrastructure",
+                "difficulty": "Difficult",
+                "description": "Implement strategies for scaling load balancers and backend servers to accommodate growing traffic demands."
+            }
+        ]
+    }
+]

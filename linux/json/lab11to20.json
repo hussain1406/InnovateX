@@ -1,0 +1,122 @@
+[
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Understanding Filesystem Hierarchy",
+        "topicFocus": "Advanced Linux SysAdmin",
+        "topicDescription": "Exploring the hierarchical structure of the Linux filesystem and its significance in system administration.",
+        "topicOutcomes": "Learn the layout of the filesystem, its directories, and their purposes.",
+        "subtopics": [
+            {
+                "name": "Root Filesystem (/)",
+                "difficulty": "Easy",
+                "description": "Overview of the root filesystem, its structure, and common directories."
+            },
+            {
+                "name": "Mount Points",
+                "difficulty": "Medium",
+                "description": "Understanding mount points and how to mount and unmount filesystems."
+            },
+            {
+                "name": "Filesystem Types (ext4, xfs, etc.)",
+                "difficulty": "Difficult",
+                "description": "Comparison of different filesystem types, their features, and when to use them."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "User and Group Management",
+        "topicFocus": "Advanced Linux SysAdmin",
+        "topicDescription": "Exploring advanced user and group management techniques in Linux system administration.",
+        "topicOutcomes": "Learn how to manage users, groups, permissions, and access control lists (ACLs).",
+        "subtopics": [
+            {
+                "name": "User Account Creation and Deletion",
+                "difficulty": "Easy",
+                "description": "Creating and removing user accounts using command-line tools."
+            },
+            {
+                "name": "Group Management",
+                "difficulty": "Medium",
+                "description": "Managing groups, adding and removing users from groups."
+            },
+            {
+                "name": "Access Control Lists (ACLs)",
+                "difficulty": "Difficult",
+                "description": "Understanding and configuring ACLs for fine-grained access control."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Advanced File Permissions",
+        "topicFocus": "Advanced Linux SysAdmin",
+        "topicDescription": "Delving deeper into file permissions and security mechanisms in Linux systems.",
+        "topicOutcomes": "Master advanced file permission settings and security measures.",
+        "subtopics": [
+            {
+                "name": "Setuid, Setgid, and Sticky Bit",
+                "difficulty": "Easy",
+                "description": "Understanding the special permissions and their implications on file execution."
+            },
+            {
+                "name": "Extended Attributes",
+                "difficulty": "Medium",
+                "description": "Exploring extended file attributes and their usage for file management."
+            },
+            {
+                "name": "File Permission Masking",
+                "difficulty": "Difficult",
+                "description": "Understanding how umask works and its impact on default permissions."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Process Management",
+        "topicFocus": "Advanced Linux SysAdmin",
+        "topicDescription": "Mastering process management techniques for efficient system administration.",
+        "topicOutcomes": "Learn how to manage, monitor, and control processes effectively.",
+        "subtopics": [
+            {
+                "name": "Process Prioritization",
+                "difficulty": "Easy",
+                "description": "Managing process priority using nice and renice commands."
+            },
+            {
+                "name": "Job Control",
+                "difficulty": "Medium",
+                "description": "Controlling the execution of processes using job control techniques."
+            },
+            {
+                "name": "Process Monitoring",
+                "difficulty": "Difficult",
+                "description": "Monitoring processes using tools like top, htop, and ps."
+            }
+        ]
+    },
+    {
+        "topicGroup": "Linux Kingdom",
+        "topicName": "Network Configuration and Troubleshooting",
+        "topicFocus": "Advanced Linux SysAdmin",
+        "topicDescription": "Diving into advanced network configuration and troubleshooting techniques in Linux systems.",
+        "topicOutcomes": "Learn how to configure networking, diagnose network issues, and optimize performance.",
+        "subtopics": [
+            {
+                "name": "Network Bonding",
+                "difficulty": "Easy",
+                "description": "Configuring network bonding for redundancy and load balancing."
+            },
+            {
+                "name": "Firewall Management",
+                "difficulty": "Medium",
+                "description": "Configuring and managing firewalls using tools like iptables or firewalld."
+            },
+            {
+                "name": "Packet Analysis",
+                "difficulty": "Difficult",
+                "description": "Analyzing network traffic using tools like tcpdump or Wireshark."
+            }
+        ]
+    }
+]
