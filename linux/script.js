@@ -4,9 +4,9 @@ async function main() {
   main.style.display = "none"
   let count = 0;
   for (const jsonfile of [
-    "json/lab1to10.json",
-    "json/lab11to20.json",
-    "json/lab21to30.json",
+    "json/lab1to10.html",
+    "json/lab11to20.html",
+    "json/lab21to30.html",
   ]) {
     const response = await fetch(jsonfile);
     if (!response.ok) {
