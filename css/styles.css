@@ -1,6 +1,6 @@
 .cursor-pointer {
     cursor: pointer;
 }
-.clickable.cursor-pointer[data-bs-toggle="collapse"]+tr:hover > td {
+.clickable.cursor-pointer[data-bs-toggle="collapse"]+tr:hover > div, .clickable.cursor-pointer[data-bs-toggle="collapse"]+tr:hover > div + td {
     --bs-table-bg-state: white;
 }

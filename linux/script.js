@@ -70,7 +70,7 @@ function subtopicGenerator(subtopics, id) {
                     </tr>`;
     num++;
   }
-  return `<div>
+  return `<div class="container">
             <td colspan="5">
               <div id=accordion${id} class="collapse">
                 <table class="table table-sm">
