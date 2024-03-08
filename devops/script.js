@@ -15,7 +15,7 @@ async function main() {
     }
     const topics = await response.json();
     for (let i = 0; i < topics.length; i++) {
-      const data = `<th scope="row">${count + 1}</th>
+      const data = `<th scope="row"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"></th>
                       <th scope="row">${topics[i].topicGroup}</th>
                         <td>${topics[i].topicName}</td>
                         <td>${topics[i].topicFocus}</td>
@@ -24,25 +24,17 @@ async function main() {
       let row = table.insertRow(-1);
       row.setAttribute("data-bs-toggle", "collapse");
       row.setAttribute("data-bs-target", `#accordion${count}`);
-      row.setAttribute("class", "clickable cursor-pointer");
-      // row.addEventListener("click", (e) => {
-      //   console.log("clicked!");
-      //   console.log(
-      //     document.querySelector(e.currentTarget.getAttribute("data-bs-target"))
-      //   );
-      //   let tdelem = document.querySelector(
-      //     e.currentTarget.getAttribute("data-bs-target")
-      //   );
-      //   if (tdelem.style.display == "none") {
-      //     tdelem.style.display = "initial";
-      //     console.log("if clicked");
-      //   } else {
-      //     console.log("else clicked");
-      //     setTimeout(() => {
-      //       tdelem.style.display = "none";
-      //     }, 300);
-      //   }
-      // });
+      row.setAttribute("class", "clickable cursor-pointer closed");
+      row.addEventListener("click", (e) => {
+        console.log("clicked!");
+        if (e.target.classList.contains("closed")) {
+          e.target.classList.remove("closed");
+        } else {
+          setTimeout(() => {
+            e.target.classList.add("closed");
+          }, 1000);
+        }
+      });
       row.innerHTML = data;
 
       let subRow = table.insertRow(-1);
@@ -70,9 +62,8 @@ function subtopicGenerator(subtopics, id) {
                     </tr>`;
     num++;
   }
-  return `<div>
-            <td colspan="5">
-              <div id=accordion${id} class="collapse">
+  return `<td colspan="5">
+              <div id="accordion${id}" class="collapse">
                 <table class="table table-sm">
                   <thead>
                     <tr>
@@ -87,7 +78,6 @@ function subtopicGenerator(subtopics, id) {
                   </tbody>
                 </table>
               </div>
-            </td>
-          </div>`;
+            </td>`;
 }
 main();

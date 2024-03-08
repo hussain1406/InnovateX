@@ -1,0 +1,6 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+.closed.clickable.cursor-pointer+tr:hover > td {
+    --bs-table-bg-state: white;
+}
