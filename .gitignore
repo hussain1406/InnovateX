@@ -1,3 +1,4 @@
 **/*.py
 **/*.json
 !linux/json/*.json
+test/
