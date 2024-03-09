@@ -56,6 +56,8 @@ async function main() {
   document.getElementById("temp").style.display = "none";
   main.style.display = "block";
 }
+
+
 function subtopicGenerator(subtopics, id) {
   let rows = "";
   let num = 0;

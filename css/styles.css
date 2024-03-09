@@ -2,5 +2,5 @@
     cursor: pointer;
 }
 .clickable.cursor-pointer[data-bs-toggle="collapse"]+tr:hover > div, .clickable.cursor-pointer[data-bs-toggle="collapse"]+tr:hover > div + td {
-    --bs-table-bg-state: white;
+    --bs-table-bg-state: var(--bs-table-bg-state);
 }
